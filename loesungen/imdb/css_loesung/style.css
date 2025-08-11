@@ -1,33 +1,33 @@
 html {
-  font-family: 'BrownLL', sans-serif;
-  font-size: 16px;
-  font-weight: normal;
-  color: #160D74;
-  line-height: 1.5;
-  background: #FF6C64;
+    font-family: 'BrownLL', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #160D74;
+    line-height: 1.5;
+    background: #FF6C64;
 }
 
 body {
-  margin: 0;
+    margin: 0;
 }
 
 a {
-  color: blue;
+    color: blue;
 }
 
 .main {
-  background: #E9EBE8;
-  width: 800px;
-  margin: 0 auto;
-  padding: 20px;
+    background: #E9EBE8;
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 .square-image {
-  width: 200px;
-  margin-right: -4.5px;
+    width: 200px;
+    margin-right: -4.5px;
 }
 
 .title-image {
-  width: 800px;
-  margin-right: -4.5px;
+    width: 800px;
+    margin-right: -4.5px;
 }

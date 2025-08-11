@@ -5,7 +5,7 @@
  * @param int $count the number of random names to generate
  * @return array list of random names with ages
  */
-function generateRandomNames($count) {
+function generateRandomNames(int $count): array {
     $names = ['Alice', 'Bob', 'Charlie', 'David', 'Eve', 'Frank', 'Grace', 'Hannah', 'Ivy', 'Jack'];
     $result = [];
 
@@ -24,7 +24,7 @@ function generateRandomNames($count) {
  * @param array $data array of names and ages
  * @return string HTML table structure
  */
-function getHtmlTable($data) {
+function getHtmlTable(array $data): string {
     $html = '<table border="1" cellpadding="10" cellspacing="0" style="width: 100%; border-collapse: collapse;">';
     $html .= '<tr><th>Name</th><th>Age</th></tr>';
 
