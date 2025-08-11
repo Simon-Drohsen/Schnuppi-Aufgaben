@@ -1,0 +1,14 @@
+/* Regular */
+@font-face {
+  font-family: 'BrownLL';
+  font-style: normal;
+  font-weight: 400;
+  src: local('BrownLL Regular'), local('BrownLL-Regular'), url('../fonts/BrownLLSub-Regular.woff2') format('woff2');
+}
+/* Bold */
+@font-face {
+  font-family: 'BrownLL';
+  font-style: normal;
+  font-weight: 700;
+  src: local('BrownLL Bold'), local('BrownLL-Bold'), url('../fonts/BrownLLSub-Bold.woff2') format('woff2');
+}
