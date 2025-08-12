@@ -12,7 +12,7 @@ function generateRandomNames(int $count): array {
     for ($i = 0; $i < $count; $i++) {
         $name = $names[array_rand($names)];
         $age = rand(18, 80);
-        $result[] = ['name' => $name, 'age' => $age];
+        $result = [['name' => $name, 'age' => $age]];
     }
 
     return $result;
@@ -55,5 +55,5 @@ function getHtmlTable(array $data): string {
 }
 
 // Generate random names and display them in a table
-$randomNames = generateRandomNames(2);
+$randomNames = generateRandomNames(20);
 echo getHtmlTable($randomNames);

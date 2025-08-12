@@ -1,10 +1,8 @@
 let images = document.querySelectorAll('.square-image');
-console.log(images);
 
 function highlightLocation(element, color) {
     let locationName = element.getAttribute('data-location');
     let location = document.querySelector('#' + locationName);
-    console.log(location);
 
     location.style.color = color;
 }
